@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Global Warming - Survey</title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+    </head>
+    <body>
+        <div id="top">
+            <h1 id="title">GLOBAL WARMING</h1>
+            <p id="description">This is survey about global warming and it's solution!</p>
+            <hr>
+        </div>
+
+        <div id="content">
+            <form id="survey-form">
+                <label id="name-label" for="name">Input the name: </label> <br>
+                <input id="name" type="text" placeholder="Enter name" required> <br>
+                <label id="email-label" for="email">Input the email: </label> <br>
+                <input type="email" id="email" placeholder="example@example.com" required> <br>
+                <label id="number-label" for="number">How much % you care about Global warming: </label> <br>
+                <input type="number" id="number" min="1" max="100" placeholder="90"> <br>   
+                <label id="dropdown-label" for="dropdown">Do you believe that global warming exists? </label> <br>
+                <select id="dropdown">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select> <br>
+                <label id="radio-label" for="radio">Have you done something to help your environment?</label> <br>
+                <input type="radio" name="believe">Yes I did</input>
+                <input type="radio" name="believe">No I didn't</input> <br>
+
+                <label id="checkbox-label" name="contribution" for="checkbox"> What have you contributed to help solving global warming?</label> <br>
+                <input type="checkbox" name="checkbox1" value="Planted trees">Planted trees</input>
+                <input type="checkbox" name="checkbox1" value="Donated to plant trees">Donated to plant trees</input> <br>
+                <input type="checkbox" name="checkbox1" value="Attended conference for global warming">Attended conference for global warming</input>
+                <input type="checkbox" name="checkbox1" value="Joined political stuff to help us">Joined political party</input> <br>
+
+                <label id="textarea-label" for="textarea1">Additional text:</label> <br>
+                <textarea>
+
+                </textarea> <br>
+                <input id="submit" type="submit">
+            </form>
+        </div>
+    </body>
+</html>
